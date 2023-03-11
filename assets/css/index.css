@@ -1,0 +1,36 @@
+body {
+    background-color: var(--branco);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 180px;
+}
+
+.componentes {
+    padding-bottom: 1rem;
+}
+
+input {
+    width: 180px;
+}
+
+.submit {
+    text-align: center;
+}
+
+input#submit {
+    width: 80px;
+}
+
+#submit {
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    padding: 3px;
+}
