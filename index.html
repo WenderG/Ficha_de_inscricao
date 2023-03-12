@@ -11,27 +11,28 @@
 <body>
     <h1>Cadastre o seus dados</h1>
     <section class="container">
-        <form class="formulario">
+        <form class="formulario" id="form">
             <label for="Nome">Nome</label>
             <div class="componentes">
-                <input type="text" required>
+                <input type="text" id="nome" required>
             </div>
             <label for="email">E-mail</label>
             <div class="componentes">
-                <input type="email" required>
+                <input type="email" id="email" required>
             </div>
             <label for="senha">Senha</label>
             <div class="componentes">
-                <input type="password" required>
+                <input type="password" id="senha" required>
             </div>
             <label for="c_senha">Confirmar senha</label>
             <div class="componentes">
-                <input type="password" required>
+                <input type="password" id="c_senha" required>
             </div>
             <div class="submit">
                 <input type="submit" id="submit">
             </div>
         </form>
     </section>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
