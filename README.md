@@ -10,5 +10,5 @@ Projeto criado para o aprendizado de integração de Banco de Dados
 [X] Criar estilo do formulário <br>
 [X] Tornar responsivo <br>
 [X] Aplicação do JS <br>
-[] Revisão dos arquivos <br>
-[] Edição final do README <br>
+[X] Revisão dos arquivos <br>
+[X] Edição final do README <br>
