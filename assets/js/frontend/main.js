@@ -1,3 +1,7 @@
+const storageService = storageService('usuarios')
+
+storageService.save(1234)
+
 let form = window.document.getElementById('form')
 let nome =  window.document.getElementById('nome')
 let email = window.document.getElementById('email')
