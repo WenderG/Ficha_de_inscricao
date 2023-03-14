@@ -1,0 +1,18 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Algum nome",
+    "email": "fulanodetal@email.com",
+    "password": "Sua senha"
+
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/641067dc75e0b53e1884
+
+###
+DELETE http://localhost:3000/api/services/641067dc75e0b53e18c64
